@@ -2,6 +2,20 @@ header {
     color: #FFDC5E;
 }
 
+
+
+.three_two_one {
+    animation: blinker 2s linear infinite;
+}
+
+
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+
 body {
     color: #FCFFEB;
     background-color: #4C4C47;
@@ -11,6 +25,7 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0; 
+    background-image: url("https://t3.ftcdn.net/jpg/09/22/91/24/360_F_922912482_GT8DICNOY1LRBV47kVnjhUWp5C3ATDHR.jpg");
 }
 
 footer {
