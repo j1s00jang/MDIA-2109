@@ -1,0 +1,14 @@
+
+.title {
+    font-size: 2em;
+    color: darkolivegreen;
+}
+
+
+.first,
+.second,
+.third {
+    position: relative;
+    size: 30vh;
+    height: 30vh;
+}

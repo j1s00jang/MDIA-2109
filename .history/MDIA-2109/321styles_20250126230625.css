@@ -1,0 +1,23 @@
+header {
+    color: #FFDC5E;
+}
+
+body {
+    color: #FCFFEB;
+    background-color: #4C4C47;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0; 
+    background-image: url("https://t3.ftcdn.net/jpg/09/22/91/24/360_F_922912482_GT8DICNOY1LRBV47kVnjhUWp5C3ATDHR.jpg");
+}
+
+footer {
+    color: #848FA5;
+}
+
+.threeThings {
+    animation: blinker 1s linear infinite;
+}

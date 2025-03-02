@@ -1,0 +1,134 @@
+/* Resets and Basics */
+
+html {
+    font-family: "Futura", sans-serif;
+    font-size: 1.25em;
+    background-color: pink;
+    padding: 1.25em;
+    color:palevioletred;
+}
+
+body {
+    margin: 0;
+}
+
+
+section {
+    border: 1px solid gray;
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: gray; */
+    width: 40vw; 
+    /* vw is almost similar with % */
+    padding: 10px;
+    margin: 10px;
+}
+
+
+section .container {
+    border-color: darkorange;
+}
+
+.container {
+    border: 1px solid;
+    border-color: purple;
+    transition: all 0.5s;
+}
+
+
+.container:first-child {
+    background-color: brown;
+}
+
+
+
+
+.container:hover {
+    width: 50vw;
+}
+
+.container + .container {
+    margin-top: 20px;
+}
+
+
+.link {
+    transition: background-color 1s;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: gray;
+    background-color: hotpink;
+}
+
+
+
+#specific-container {
+    border-color: blue;
+}
+
+
+ul {
+    list-style-type: decimal-leading-zero;
+}
+
+
+
+
+
+
+
+.icon-box {
+    padding: 5px;
+}
+
+.icon-box__image {
+    width: 40px;
+    height: 40px;
+}
+
+.icon-box__heading {
+    font-size: 20px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.icon-box__text {
+    color: gray;
+    font-size: 12px;
+}
+
+
+/* Animations */
+
+.css {
+    position: relative;
+    height: 30vh;
+    font-size: 65px;
+    background: skyblue;
+}
+
+.css__spinner {
+    position: absolute;
+    animation-name: makeItSpin;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+.spin { left: 25%; top: 25%; }
+.moreSpin { left: 50%; top: 35%; }
+.mostSpin { left: 75%; top: 30%; }
+
+
+
+@keyframes makeItSpin {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg) translateY(5px);
+    }
+}

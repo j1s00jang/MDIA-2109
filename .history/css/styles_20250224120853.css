@@ -1,0 +1,52 @@
+
+
+html {
+    font-family: "Futura", sans-serif;
+    font-size: 1.25em;
+    background-color: pink;
+    padding: 1.25em;
+    color:palevioletred;
+}
+
+body {
+    margin: 0;
+}
+
+.title {
+    font-size: 2em;
+    color: grey;
+}
+
+
+.first,
+.second,
+.third {
+    position: relative;
+    align-items: center;
+}
+
+
+.first {
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 10px;
+    color: brown;
+    font-size: 1.5em;
+    
+}
+
+.second {
+    background-color: lightcyan;
+    padding: 10px;
+    margin: 10px;
+    color: teal;
+    font-size: 1.5em;
+}
+
+.third {
+    background-color: lightyellow;
+    padding: 10px;
+    margin: 10px;
+    color: darkgoldenrod;
+    font-size: 1.5em;
+}

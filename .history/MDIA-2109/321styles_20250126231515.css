@@ -1,0 +1,59 @@
+header {
+    color: #FFDC5E;
+}
+
+
+.three_two_one_title {
+    -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff)) 0 0 no-repeat;
+	-webkit-background-size: 150px;
+	color: $text-color;
+	-webkit-background-clip: text;
+	-webkit-animation-name: shine;
+	-webkit-animation-duration: $duration;
+	-webkit-animation-iteration-count: infinite;
+	text-shadow: 0 0px 0px rgba(255, 255, 255, 0.5);
+}
+
+@-webkit-keyframes .three_two_one_title {
+	0%, 10% {
+		background-position: -1000px;
+	}
+	20% {
+		background-position: top left;
+	}
+	90% {
+		background-position: top right;
+	}
+	100% {
+		background-position: 1000px;
+	}
+}
+
+
+.three_two_one {
+    animation: blinker 2s linear infinite;
+}
+
+
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+
+body {
+    color: #FCFFEB;
+    background-color: #4C4C47;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0; 
+    background-image: url("https://t3.ftcdn.net/jpg/09/22/91/24/360_F_922912482_GT8DICNOY1LRBV47kVnjhUWp5C3ATDHR.jpg");
+}
+
+footer {
+    color: #848FA5;
+}

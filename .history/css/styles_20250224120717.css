@@ -1,0 +1,45 @@
+
+
+html {
+    font-family: "Futura", sans-serif;
+    font-size: 1.25em;
+    background-color: pink;
+    padding: 1.25em;
+    color:palevioletred;
+}
+
+body {
+    margin: 0;
+}
+
+.title {
+    font-size: 2em;
+    color: grey;
+}
+
+
+.first,
+.second,
+.third {
+    position: relative;
+}
+
+
+.first {
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 10px;
+    color:black
+}
+
+.second {
+    background-color: lightcyan;
+    padding: 10px;
+    margin: 10px;
+}
+
+.third {
+    background-color: lightyellow;
+    padding: 10px;
+    margin: 10px;
+}
